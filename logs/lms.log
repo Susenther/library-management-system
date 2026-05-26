@@ -44,3 +44,46 @@
 2026-05-26T10:42:54.261+05:30  INFO 19420 --- [librarymanagementsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-05-26T10:42:54.263+05:30  INFO 19420 --- [librarymanagementsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-05-26T10:42:54.270+05:30  INFO 19420 --- [librarymanagementsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-26T10:42:57.228+05:30  INFO 7760 --- [librarymanagementsystem] [main] c.e.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 21.0.8 with PID 7760 (C:\my spaace\Library-Management-System-main\Library-Management-System-main\target\classes started by Susenther E in C:\my spaace\Library-Management-System-main\Library-Management-System-main)
+2026-05-26T10:42:57.231+05:30  INFO 7760 --- [librarymanagementsystem] [main] c.e.l.LibrarymanagementsystemApplication : No active profile set, falling back to 1 default profile: "default"
+2026-05-26T10:42:57.894+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-26T10:42:57.895+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-26T10:42:57.997+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2026-05-26T10:42:58.012+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-26T10:42:58.014+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-26T10:42:58.027+05:30  INFO 7760 --- [librarymanagementsystem] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.librarymanagementsystem.repo.BorrowingRecordRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-05-26T10:42:58.028+05:30  INFO 7760 --- [librarymanagementsystem] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.librarymanagementsystem.repo.LibraryManagementRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-05-26T10:42:58.028+05:30  INFO 7760 --- [librarymanagementsystem] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.librarymanagementsystem.repo.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-05-26T10:42:58.028+05:30  INFO 7760 --- [librarymanagementsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-05-26T10:42:58.530+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-26T10:42:58.546+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T10:42:58.546+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-05-26T10:42:58.595+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-26T10:42:58.595+05:30  INFO 7760 --- [librarymanagementsystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2026-05-26T10:42:58.722+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-26T10:42:58.795+05:30  INFO 7760 --- [librarymanagementsystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-05-26T10:42:58.833+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-26T10:42:59.068+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-26T10:42:59.096+05:30  INFO 7760 --- [librarymanagementsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-26T10:42:59.405+05:30  INFO 7760 --- [librarymanagementsystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4882b9a
+2026-05-26T10:42:59.407+05:30  INFO 7760 --- [librarymanagementsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-26T10:42:59.439+05:30  WARN 7760 --- [librarymanagementsystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-26T10:42:59.440+05:30  WARN 7760 --- [librarymanagementsystem] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-26T10:42:59.453+05:30  INFO 7760 --- [librarymanagementsystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-26T10:43:00.058+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-26T10:43:00.118+05:30  INFO 7760 --- [librarymanagementsystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-26T10:43:00.407+05:30  INFO 7760 --- [librarymanagementsystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-05-26T10:43:00.436+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-26T10:43:00.851+05:30  WARN 7760 --- [librarymanagementsystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-26T10:43:01.525+05:30  INFO 7760 --- [librarymanagementsystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-26T10:43:01.533+05:30  INFO 7760 --- [librarymanagementsystem] [main] c.e.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 4.716 seconds (process running for 4.995)
+2026-05-26T10:48:04.091+05:30  INFO 7760 --- [librarymanagementsystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T10:48:04.091+05:30  INFO 7760 --- [librarymanagementsystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T10:48:04.092+05:30  INFO 7760 --- [librarymanagementsystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
